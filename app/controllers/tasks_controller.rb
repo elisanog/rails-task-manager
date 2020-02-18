@@ -1,7 +1,6 @@
 class TasksController < ApplicationController
 
   def index
-    @restaurants = Restaurant.all
+    @tasks = Task.all
   end
-
 end
